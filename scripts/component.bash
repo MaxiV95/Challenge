@@ -17,11 +17,10 @@ cat <<EOF >"src/components/$COMPONENT_NAME/$COMPONENT_NAME.tsx"
 import type { FC } from 'react';
 
 interface $COMP_PROP {
-	// Property content here
 	props: any;
 }
 
-export const $COMPONENT_NAME: FC<$COMP_PROP> = (props) => {
+export const $COMPONENT_NAME: FC<$COMP_PROP> = () => {
     return (
         <div>
             {/* Component content here */}
