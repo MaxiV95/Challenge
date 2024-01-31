@@ -2,64 +2,13 @@
 import React from 'react';
 import '@mui/material/styles';
 import Home from './pages/Home/Home';
+import MenuSection from './pages/MenuSection/MenuSection';
 
 const App: React.FC = () => {
 	return (
 		<div>
 			<Home />
-
-			<h1>Home</h1>
-			<br />
-			<br />
-			<br />
-			<br />
-			<br />
-			<br />
-			<br />
-			<br />
-			<br />
-			<br />
-			<br />
-			<br />
-			<br />
-			<br />
-			<br />
-			<br />
-			<br />
-			<br />
-			<br />
-			<br />
-			<br />
-			<br />
-			<br />
-			<br />
-			<br />
-			<br />
-			<br />
-			<br />
-			<br />
-			<br />
-			<br />
-			<br />
-			<br />
-			<br />
-			<br />
-			<br />
-			<br />
-			<br />
-			<br />
-			<br />
-			<br />
-			<br />
-			<br />
-			<br />
-			<br />
-			<br />
-			<br />
-			<br />
-			<div id='Menu'>
-				<h1>eventos</h1>
-			</div>
+			<MenuSection />
 			<br />
 			<br />
 			<br />

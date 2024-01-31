@@ -1,0 +1,82 @@
+[
+  {
+    "name": "Almuerzos",
+    "options": [
+      {
+        "name": "Nombre",
+        "img": "Almuerzo1",
+        "price": 0.00
+      },
+      {
+        "name": "Nombre",
+        "img": "Almuerzo2",
+        "price": 0.00
+      },
+      {
+        "name": "Nombre",
+        "img": "Almuerzo3",
+        "price": 0.00
+      }
+    ]
+  },
+  {
+    "name": "Desayunos y Cenas",
+    "options": [
+      {
+        "name": "Nombre",
+        "img": "Desayuno1",
+        "price": 0.00
+      },
+      {
+        "name": "Nombre",
+        "img": "Desayuno2",
+        "price": 0.00
+      },
+      {
+        "name": "Nombre",
+        "img": "Desayuno3",
+        "price": 0.00
+      }
+    ]
+  },
+  {
+    "name": "Postres",
+    "options": [
+      {
+        "name": "Nombre",
+        "img": "Postre1",
+        "price": 0.00
+      },
+      {
+        "name": "Nombre",
+        "img": "Postre2",
+        "price": 0.00
+      },
+      {
+        "name": "Nombre",
+        "img": "Postre3",
+        "price": 0.00
+      }
+    ]
+  },
+  {
+    "name": "Bebidas",
+    "options": [
+      {
+        "name": "Nombre",
+        "img": "Bebida1",
+        "price": 0.00
+      },
+      {
+        "name": "Nombre",
+        "img": "Bebida2",
+        "price": 0.00
+      },
+      {
+        "name": "Nombre",
+        "img": "Bebida3",
+        "price": 0.00
+      }
+    ]
+  }
+]
