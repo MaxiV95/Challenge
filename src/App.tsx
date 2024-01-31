@@ -3,12 +3,14 @@ import React from 'react';
 import '@mui/material/styles';
 import Home from './pages/Home/Home';
 import MenuSection from './pages/MenuSection/MenuSection';
+import Room from './pages/Room/Room';
 
 const App: React.FC = () => {
 	return (
 		<div>
 			<Home />
 			<MenuSection />
+			<Room />
 			<br />
 			<br />
 			<br />
