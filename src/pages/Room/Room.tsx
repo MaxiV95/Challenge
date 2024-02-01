@@ -4,7 +4,7 @@ import { useState } from 'react';
 import { Box } from '@mui/system';
 import { Typography, Button } from '@mui/material';
 import { KeyboardArrowLeft, KeyboardArrowRight } from '@mui/icons-material';
-import imgRoom from '../../data/Room.png';
+import imgRoom from '../../data/more/Room.png';
 
 const description =
 	'Lorem ipsum dolor sit amet consectetur. Eu felis risus quis nisi lectus. Enim ipsum nisi gravida massa odio. Volutpat fermentum.';
@@ -26,6 +26,7 @@ export const Room: FC<any> = () => {
 				backgroundColor: '#AE9672',
 				width: { xs: '100%', md: '100%' },
 				margin: '0 auto',
+				mt: 6,
 			}}
 		>
 			<Box
