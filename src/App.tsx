@@ -4,6 +4,7 @@ import '@mui/material/styles';
 import Home from './pages/Home/Home';
 import MenuSection from './pages/MenuSection/MenuSection';
 import Room from './pages/Room/Room';
+import Event from './pages/Event/Event';
 
 const App: React.FC = () => {
 	return (
@@ -11,57 +12,7 @@ const App: React.FC = () => {
 			<Home />
 			<MenuSection />
 			<Room />
-			<br />
-			<br />
-			<br />
-			<br />
-			<br />
-			<br />
-			<br />
-			<br />
-			<br />
-			<br />
-			<br />
-			<br />
-			<br />
-			<br />
-			<br />
-			<br />
-			<br />
-			<br />
-			<br />
-			<br />
-			<br />
-			<br />
-			<br />
-			<br />
-			<br />
-			<br />
-			<br />
-			<br />
-			<br />
-			<br />
-			<br />
-			<br />
-			<br />
-			<br />
-			<br />
-			<br />
-			<br />
-			<br />
-			<br />
-			<br />
-			<br />
-			<br />
-			<br />
-			<br />
-			<br />
-			<br />
-			<br />
-			<br />
-			<div id='Eventos'>
-				<h1>eventos</h1>
-			</div>
+			<Event />
 			<br />
 			<br />
 			<br />
