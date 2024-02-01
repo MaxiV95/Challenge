@@ -7,7 +7,7 @@ import {
 	CardContent,
 	CardActionArea,
 } from '@mui/material';
-import { Option, menuImg } from '../../data/imgMenu';
+import { Option, menuImg } from '../../data/menuData';
 
 interface CardCarrouselProps {
 	option: Option
