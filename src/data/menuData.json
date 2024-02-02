@@ -4,17 +4,17 @@
     "options": [
       {
         "name": "Nombre",
-        "img": "Almuerzo1",
+        "img": "Almuerzo1.png",
         "price": 0.00
       },
       {
         "name": "Nombre",
-        "img": "Almuerzo2",
+        "img": "Almuerzo2.png",
         "price": 0.00
       },
       {
         "name": "Nombre",
-        "img": "Almuerzo3",
+        "img": "Almuerzo3.png",
         "price": 0.00
       }
     ]
@@ -24,17 +24,17 @@
     "options": [
       {
         "name": "Nombre",
-        "img": "Desayuno1",
+        "img": "Desayuno1.png",
         "price": 0.00
       },
       {
         "name": "Nombre",
-        "img": "Desayuno2",
+        "img": "Desayuno2.png",
         "price": 0.00
       },
       {
         "name": "Nombre",
-        "img": "Desayuno3",
+        "img": "Desayuno3.png",
         "price": 0.00
       }
     ]
@@ -44,17 +44,17 @@
     "options": [
       {
         "name": "Nombre",
-        "img": "Postre1",
+        "img": "Postre1.png",
         "price": 0.00
       },
       {
         "name": "Nombre",
-        "img": "Postre2",
+        "img": "Postre2.png",
         "price": 0.00
       },
       {
         "name": "Nombre",
-        "img": "Postre3",
+        "img": "Postre3.png",
         "price": 0.00
       }
     ]
@@ -64,17 +64,17 @@
     "options": [
       {
         "name": "Nombre",
-        "img": "Bebida1",
+        "img": "Bebida1.png",
         "price": 0.00
       },
       {
         "name": "Nombre",
-        "img": "Bebida2",
+        "img": "Bebida2.png",
         "price": 0.00
       },
       {
         "name": "Nombre",
-        "img": "Bebida3",
+        "img": "Bebida3.png",
         "price": 0.00
       }
     ]

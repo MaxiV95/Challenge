@@ -4,7 +4,7 @@ import { Box, Button, useMediaQuery, useTheme } from '@mui/material';
 
 import { KeyboardArrowLeft, KeyboardArrowRight } from '@mui/icons-material';
 import CardCarrousel from '../CardCarrousel/CardCarrousel';
-import { Option } from '../../data/menuData';
+import { Option } from '../../store/useAppState';
 
 interface CarrouselProps {
 	options: Option[];

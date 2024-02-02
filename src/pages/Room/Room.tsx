@@ -49,7 +49,7 @@ export const Room: FC<any> = () => {
 					justifyContent='center'
 				>
 					<img
-						src={imgRoom}
+						src='/images/Room.png'
 						alt='Hotel'
 						loading='lazy'
 						height='auto'

@@ -7,10 +7,10 @@ import {
 	CardContent,
 	CardActionArea,
 } from '@mui/material';
-import { Option, menuImg } from '../../data/menuData';
+import { Option } from '../../store/useAppState';
 
 interface CardCarrouselProps {
-	option: Option
+	option: Option;
 }
 
 export const CardCarrousel: FC<CardCarrouselProps> = ({ option }) => {
@@ -29,7 +29,8 @@ export const CardCarrousel: FC<CardCarrouselProps> = ({ option }) => {
 					component='img'
 					height='162px'
 					width='178px'
-					image={menuImg[option.img]}
+					// image={`/images/${option.img}.png)`}
+					image={`/images/${option.img}`}
 					alt={option.name}
 					sx={{ borderRadius: '10px' }}
 				/>

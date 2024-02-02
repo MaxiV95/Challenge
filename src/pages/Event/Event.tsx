@@ -12,63 +12,68 @@ export const Event: FC<any> = () => {
 	}, []);
 
 	return (
-		<Box id='Eventos' width='80%' margin='100px auto'>
-			<Typography variant='h5' fontFamily='Jost'>
-				Eventos
-			</Typography>
+		<Box
+			sx={{
+				display: 'flex',
+				justifyContent: 'center',
+			}}
+		>
 			<Box
-				width='80%'
-				display={{ xs: 'block', md: 'flex' }}
-				justifyContent={{ md: 'space-around' }}
-				margin='20px auto'
+				id='Eventos'
+				sx={{
+					display: 'flex',
+					flexDirection: 'column',
+					pt: '80px',
+				}}
 			>
-				{events.map((item, index) => (
-					<Box
-						key={index}
-						position='relative'
-						display='flex'
-						justifyContent='center'
-					>
-						<img
-							style={{
-								objectFit: 'cover',
-								filter: 'brightness(50%)',
-								borderRadius: '10px',
-								margin: '20px auto',
-							}}
-							src={item.img}
-							width={210}
-							height={337}
-						/>
-						<Typography
-							fontFamily='Jost'
-							top='50%'
+				<Typography variant='h5' fontFamily='Jost' mb='2rem'>
+					Eventos
+				</Typography>
+				<Box
+					sx={{
+						display: { xs: '', md: 'flex' },
+						// flexDirection: 'row',
+						gap: '2rem',
+						margin: '0 5rem',
+					}}
+				>
+					{events.map((item, index) => (
+						<Box
+							key={index}
+							position='relative'
 							display='flex'
-							margin='0 auto'
-							width='100%'
 							justifyContent='center'
-							color='primary'
-							fontWeight='700'
-							position='absolute'
 						>
-							{item.name}
-						</Typography>
-						<Typography
-							fontFamily='Jost'
-							top='50%'
-							display='flex'
-							margin='0 auto'
-							width='100%'
-							justifyContent='center'
-							color='primary'
-							mt={15}
-							fontWeight='500'
-							position='absolute'
-						>
-							Fecha - Hora
-						</Typography>
-					</Box>
-				))}
+							<img
+								style={{
+									objectFit: 'cover',
+									filter: 'brightness(50%)',
+									borderRadius: '10px',
+								}}
+								src={`/images/${item.img}`}
+								width={210}
+								height={337}
+							/>
+							<Typography
+								fontFamily='Jost'
+								color='secondary'
+								top='50%'
+								fontWeight='700'
+								position='absolute'
+							>
+								{item.name}
+							</Typography>
+							<Typography
+								fontFamily='Jost'
+								color='secondary'
+								top='85%'
+								position='absolute'
+							>
+								Fecha - Hora
+							</Typography>
+						</Box>
+					))}
+				</Box>
 			</Box>
 		</Box>
 	);

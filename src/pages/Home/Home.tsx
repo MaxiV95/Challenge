@@ -4,7 +4,6 @@ import type { FC } from 'react';
 import { Box, ButtonBase, Typography } from '@mui/material';
 import NavBar from '../../components/NavBar/NavBar';
 import { Stack } from '@mui/system';
-import NavbarImg from '../../data/more/Navbar.png'
 
 const Home: FC<any> = () => {
 	return (
@@ -17,7 +16,7 @@ const Home: FC<any> = () => {
 				flexDirection: 'column',
 				alignItems: 'center',
 				gap: '80px',
-				backgroundImage: NavbarImg,
+				backgroundImage: `url(/images/Navbar.png)`,
 				backgroundPosition: '50%',
 				backgroundSize: 'cover',
 				backgroundRepeat: 'no-repeat',
