@@ -1,0 +1,34 @@
+[
+  {
+      "name": "Piscina",
+      "img": "/Servicio1.png"
+  },
+  {
+      "name": "Spa",
+      "img": "/Servicio2.png"
+  },
+  {
+      "name": "Sauna",
+      "img": "/Servicio3.png"
+  },
+  {
+      "name": "Discoteca",
+      "img": "/Servicio4.png"
+  },
+  {
+      "name": "Desayunos",
+      "img": "/Servicio5.png"
+  },
+  {
+      "name": "Gimnasio",
+      "img": "/Servicio6.png"
+  },
+  {
+      "name": "Animaciones",
+      "img": "/Servicio7.png"
+  },
+  {
+      "name": "Transporte",
+      "img": "/Servicio8.png"
+  }
+]
